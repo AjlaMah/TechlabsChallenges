@@ -1,5 +1,6 @@
 body {
-    background-color: #e89f6a
+    background-color: #e89f6a;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 h1 {
@@ -10,13 +11,38 @@ h1 {
 .flex-container {
     display: flex;
     flex-direction: column;
-    border: 10px solid white;
+    border: 10px solid #c17a2b;
+}
+
+.Introduction {
+    padding: 0rem 1rem 1rem 2rem;
+    max-width: 500px;
+
+    text-align: justify;
+    margin: auto;
+}
+
+button {
+    background-color: black;
+    color: white;
+    border: 1px solid black;
+}
+
+input[type="submit"] {
+    background-color: black;
+    color: white;
+    border: 1px solid black;
+}
+
+.Introduction>h2 {
+    text-align: center;
 }
 
 .firstcontainer {
     display: flex;
     flex-direction: column;
-    border-bottom: 10px solid white;
+    border-bottom: 10px solid #c17a2b;
+    padding: 1rem
 }
 
 .firstcontainer h3,
@@ -40,15 +66,18 @@ a {
 .recommendation {
     flex-grow: 1;
     text-align: center;
+    padding-bottom: 1rem
 }
 
 .recommendation:nth-child(1) {
-    border-right: 5px solid white;
+    border-right: 5px solid #c17a2b;
 }
 
 .recommendation:nth-child(2) {
-    border-left: 5px solid white;
+    border-left: 5px solid #c17a2b;
 }
+
+button {}
 
 img {
     width: 150px;
