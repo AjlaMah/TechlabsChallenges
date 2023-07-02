@@ -1,0 +1,56 @@
+body {
+    background-color: #e89f6a
+}
+
+h1 {
+    color: #713409;
+    text-align: center;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    border: 10px solid white;
+}
+
+.firstcontainer {
+    display: flex;
+    flex-direction: column;
+    border-bottom: 10px solid white;
+}
+
+.firstcontainer h3,
+h4,
+img,
+p,
+section,
+form,
+a {
+    margin: auto;
+}
+
+.secondcontainer {
+    display: flex;
+    flex-direction: row;
+    align-content: space-around;
+    justify-content: space-around;
+    align-items: normal
+}
+
+.recommendation {
+    flex-grow: 1;
+    text-align: center;
+}
+
+.recommendation:nth-child(1) {
+    border-right: 5px solid white;
+}
+
+.recommendation:nth-child(2) {
+    border-left: 5px solid white;
+}
+
+img {
+    width: 150px;
+    height: auto;
+}
